@@ -6,102 +6,126 @@
     <title>Liyang Fan - Resume</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
             color: #333;
-        }
-        .container {
             max-width: 800px;
-            margin: 40px auto;
+            margin: 0 auto;
             padding: 20px;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            background-color: #f4f4f4;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
         }
         h1 {
-            text-align: center;
-            color: #0066cc;
-            margin-bottom: 20px;
-        }
-        h2 {
-            border-bottom: 2px solid #0066cc;
-            padding-bottom: 5px;
-            margin-bottom: 15px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
         }
         .section {
-            margin-bottom: 30px;
+            background-color: #fff;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
-        .contact-info, .education, .experience {
-            list-style: none;
-            padding: 0;
+        .job-title, .degree {
+            font-weight: bold;
+            color: #2980b9;
         }
-        .contact-info li, .education li, .experience li {
-            margin-bottom: 10px;
+        .company, .university {
+            font-style: italic;
+            color: #7f8c8d;
         }
-        .contact-info li a {
-            color: #0066cc;
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        .contact {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        .contact a {
+            color: #fff;
             text-decoration: none;
-        }
-        .contact-info li a:hover {
-            text-decoration: underline;
-        }
-        .experience h3, .education h3 {
-            margin: 0;
-            font-size: 1.2em;
-            color: #333;
-        }
-        .experience p, .education p {
-            margin: 5px 0;
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Liyang Fan</h1>
+    <h1>Liyang Fan</h1>
 
+    <div class="section">
+        <h2>Education</h2>
+        <div class="degree">MSc in Computer Technology</div>
+        <div class="university">Shenzhen University - Shenzhen Institute of Technology Joint Training Program</div>
+        <div>2024 - 2027 (Expected)</div>
+        <ul>
+            <li>Specialized in Computer Technology</li>
+            <li>Research conducted at Shenzhen Institute of Advanced Technology</li>
+        </ul>
 
-        <div class="section">
-            <h2>Academic Background</h2>
-            <ul class="education">
-                <li>
-                    <h3>Ph.D. in Computer Science</h3>
-                    <p>University Name, Year - Present</p>
-                </li>
-                <li>
-                    <h3>M.Sc. in Computer Science</h3>
-                    <p>University Name, Year - Year</p>
-                </li>
-                <li>
-                    <h3>B.Sc. in Computer Science</h3>
-                    <p>University Name, Year - Year</p>
-                </li>
-            </ul>
-        </div>
+        <div class="degree">BSc in Computer Science and Technology</div>
+        <div class="university">Hunan University of Science and Technology</div>
+        <div>2020 - 2024</div>
+        <ul>
+            <li>Ranked in the top 1% of the program</li>
+            <li>Key courses: Software Engineering, Discrete Mathematics, Data Structures, Algorithm Design</li>
+        </ul>
+    </div>
 
-        <div class="section">
-            <h2>Work Experience</h2>
-            <ul class="experience">
-                <li>
-                    <h3>Job Title</h3>
-                    <p>Company Name, Location</p>
-                    <p>Month Year - Present</p>
-                    <p>Job responsibilities and achievements.</p>
-                </li>
-                <li>
-                    <h3>Job Title</h3>
-                    <p>Company Name, Location</p>
-                    <p>Month Year - Month Year</p>
-                    <p>Job responsibilities and achievements.</p>
-                </li>
-            </ul>
-        </div>
+    <div class="section">
+        <h2>Work Experience</h2>
+        <div class="job-title">Natural Language Processing Algorithm Intern</div>
+        <div class="company">JinaAI</div>
+        <div>March 2024 - July 2024</div>
+        <ul>
+            <li>Worked on model architecture adaptation, data mining, and feature extension</li>
+            <li>Contributed to the development of jina-reranker-v2-base-multilingual model</li>
+        </ul>
+    </div>
 
-        <div class="section">
-            <h2>Contact</h2>
-            <p>Email: <a href="mailto:liyangfan88888@google.com">liyangfan88888@google.com</a></p>
-            <p>GitHub: <a href="https://github.com/relic-yuexi" target="_blank">https://github.com/relic-yuexi</a></p>
-        </div>
+    <div class="section">
+        <h2>Projects</h2>
+        <h3>ChatAgent</h3>
+        <div>January 2024 - March 2024</div>
+        <ul>
+            <li>Developed an AI agent project based on FastAPI framework</li>
+            <li>Implemented natural language database querying, improving data retrieval efficiency</li>
+            <li>Achieved response times under 3 seconds for queries on tables with millions of records</li>
+        </ul>
+
+        <h3>MegaChat Text Generation Model</h3>
+        <div>July 2023 - August 2023</div>
+        <ul>
+            <li>Built a text generation system based on the MEGABYTE model</li>
+            <li>Implemented efficient inference with extended length capabilities</li>
+            <li>Developed character-level inference for multi-language support</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, C++, Java</li>
+            <li>Machine Learning: Experienced in designing and implementing ML models</li>
+            <li>Frameworks: PyTorch, FastAPI, Hugging Face Transformers</li>
+            <li>Tools: Git, Docker</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Publications</h2>
+        <p>
+            Liu, Z., Fang, F., Feng, X., Du, X., Zhang, C., Wang, Z., Bai, Y., Zhao, Q., <strong>Fan, L.</strong>, Gan, C., et al. (2024). II-Bench: An Image Implication Understanding Benchmark for Multimodal Large Language Models. <em>arXiv preprint arXiv:2406.05862</em>.
+        </p>
+    </div>
+
+    <div class="section contact">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:liyangfan88888@gmail.com">liyangfan88888@gmail.com</a></p>
     </div>
 </body>
 </html>
